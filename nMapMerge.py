@@ -1,3 +1,19 @@
+####################################################################################
+# 
+# nMapMerge.py 
+#
+# Description 
+# Combine nMap xml files into one XML 
+#
+# Example 
+# python nMapMerge.py -f nmap_scan.xml
+# python nMapMerge.py -f ./nMap/
+# 
+# Author: 
+# Hue B. Solutions LLC, CBHue
+#
+#
+####################################################################################
 #!/usr/bin/env python
 
 import xml.etree.ElementTree as ET
