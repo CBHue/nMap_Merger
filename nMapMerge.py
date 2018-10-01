@@ -111,6 +111,7 @@ if __name__ == "__main__":
 	from datetime import datetime
 	dt = datetime.now() 
 	dt = re.sub(r"\s+", '-', str(dt))
+	dt = re.sub(r":", '-', str(dt))
 	mergeFile = "nMap_Merged_" + dt + ".xml"
 
 	# Create Header
