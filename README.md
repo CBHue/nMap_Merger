@@ -1,8 +1,9 @@
 # nMap_Merger
 Merge multiple nMap xml files into one
 
-"-f", "--file", dest="filename"
-"-d", "--dir", dest="directory"
+"-f", "--file"
+
+"-d", "--dir"
 
 nMapMerge.py -f nMap_out.xml
 
