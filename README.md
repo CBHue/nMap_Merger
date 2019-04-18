@@ -5,4 +5,5 @@ Merge multiple nMap xml files into one
 "-d", "--dir", dest="directory"
 
 nMapMerge.py -f nMap_out.xml
+
 nMapMerge.py -d /root/nMap/
