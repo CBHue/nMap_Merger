@@ -1,5 +1,9 @@
 # nMap_Merger
-<br>Merge multiple nMap xml files into one
+<br>Requires python3
+<br>
+<br>Merge multiple nMap xml files into one XML
+<br>If you have xsltproc installed it will output in HTML
+<br>ex: sudo apt-get install xsltproc
 <pre>usage: nMapMerge.py [-h] [-f FILE] [-d DIR] [-q]
 <br>optional arguments:
 <br>    -h, --help            show this help message and exit
