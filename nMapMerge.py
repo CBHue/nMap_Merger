@@ -66,7 +66,7 @@ def htmlER(mergeFile):
 		out = re.sub(r'.xml', '.html', mergeFile)
 		cmd = cmd + " -o " + out + " " + mergeFile
 		os.system(cmd)
-		print ("Output HTML File:", out)
+		print ("Output HTML File:", os.path.abspath(out))
 	else:
 		print(cmd, "does not exits")
 
