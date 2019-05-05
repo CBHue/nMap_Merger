@@ -106,7 +106,7 @@ def main_nMapMerger(xmlSet):
 	# Add Footer to mergefile
 	addFooter(mergeFile, HOSTS)
 	print('')
-	print ("Output XML File:", mergeFile)
+	print ("Output XML File:", os.path.abspath(mergeFile))
 
 	# Convert merged XML to html
 	htmlER(mergeFile)
